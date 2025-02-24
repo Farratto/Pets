@@ -6,7 +6,7 @@ attribution and copyright information.
 <root>
     <windowclass name="charsheet_notes" merge='join'>
         <sheetdata>
-            <sub_content_framed_groupbox name="replace">
+            <sub_content_framed_groupbox name="content" merge="replace">
                 <class>charsheet_notes_logs_contents</class>
             </sub_content_framed_groupbox>
         </sheetdata>
