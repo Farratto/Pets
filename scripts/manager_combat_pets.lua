@@ -108,6 +108,10 @@ end
 function updatePetOwner(node)
     --updates PC's ability to tic reaction box
     local nodeCT = ActorManager.getCTNode(node);
+    if not nodeCT then
+        return;
+    end
+
     local sOwner = DB.getOwner(node);
     local bOwnerCleared;
     if not sOwner or sOwner == '' then
