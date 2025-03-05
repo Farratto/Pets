@@ -4,33 +4,11 @@ Please see the license.html file included with this distribution for
 attribution and copyright information.
 -->
 <root>
-    <windowclass name="charsheet_notes" merge='join'>
-        <sheetdata>
-            <sub_content_framed_groupbox name="content" merge="replace">
-                <class>charsheet_notes_logs_contents</class>
-            </sub_content_framed_groupbox>
-        </sheetdata>
-    </windowclass>
-
-	<windowclass name="charsheet_notes_logs_contents">
-		<margins control="0,0,0,2" />
-		<sheetdata>
-			<anchor_content_top />
-			<sub_content_top name="notes">
-				<class>charsheet_notes_contents</class>
-			</sub_content_top>
-			<sub_content_top name="logs">
-				<class>charsheet_logs_contents</class>
-			</sub_content_top>
-		</sheetdata>
-	</windowclass>
-
 	<windowclass name="charsheet" merge="join">
 		<script>
 			function onInit()
                 local tTabs = WindowTabManager.getTabsFromWindow(self);
 
-                WindowTabManager.unregisterTab('charsheet', 'logs');
                 WindowTabManager.registerTab('charsheet', {sName = 'pets', sTabRes = 'tab_cohorts',
                     sClass = 'charsheet_cohorts', sInsertBefore = 'notes'})
 
