@@ -157,10 +157,10 @@ attribution and copyright information.
 		<sheetdata>
 			<anchor_listitem_left_sm />
 			<anchor_listitem_right_sm />
-			<button_listitem_idelete name="idelete" />
-			<linkc_listitem_right name="shortcut">
+			<button_listitem_idelete_left name="idelete" />
+			<linkc_listitem_left name="shortcut">
 				<class>npc</class>
-			</linkc_listitem_right>
+			</linkc_listitem_left>
 			<string_listitem_center_text name="name" />
 		</sheetdata>
 	</windowclass>
@@ -179,10 +179,10 @@ attribution and copyright information.
 		<sheetdata>
 			<anchor_listitem_left_sm />
 			<anchor_listitem_right_sm />
-			<button_listitem_idelete name="idelete" />
-			<linkc_listitem_right name="shortcut">
+			<button_listitem_idelete_left name="idelete" />
+			<linkc_listitem_left name="shortcut">
 				<class>reference_unit</class>
-			</linkc_listitem_right>
+			</linkc_listitem_left>
 			<string_listitem_center_text name="name" />
 		</sheetdata>
 	</windowclass>
@@ -202,10 +202,10 @@ attribution and copyright information.
 		<sheetdata>
 			<anchor_listitem_left_sm />
 			<anchor_listitem_right_sm />
-			<button_listitem_idelete name="idelete" />
-			<linkc_listitem_right name="shortcut">
+			<button_listitem_idelete_left name="idelete" />
+			<linkc_listitem_left name="shortcut">
 				<class>vehicle</class>
-			</linkc_listitem_right>
+			</linkc_listitem_left>
 			<string_listitem_center_text name="name" />
 		</sheetdata>
 	</windowclass>
